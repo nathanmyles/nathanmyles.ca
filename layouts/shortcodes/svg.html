@@ -1,0 +1,2 @@
+{{ $image := default "email" (.Get 0) }}
+<span class="svg-shortcode">{{- partial (printf "svg/%s.svg" $image) -}}</span>

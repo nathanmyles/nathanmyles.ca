@@ -1,0 +1,7 @@
+{{- $author := partial "author-data" . -}}
+<div class="author text-center">
+  <a target="_blank" rel="noopener nofollow" title="{{ $author.name }}" href="{{ $author.uri | absURL }}">
+  <img class="rounded-circle h-75 w-auto" src="{{ $author.image }}" alt="{{ $author.name }}"/>
+  <div class="text-center d-none d-md-block">{{ $author.name }}</div>
+  </a>
+</div>

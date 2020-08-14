@@ -1,0 +1,142 @@
+body {
+	background-color: #446CFF;
+}
+a:link {
+	color: #446CFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #03C;
+}
+a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+a:active {
+	text-decoration: none;
+	color: #0CF;
+}
+h1, ul, li {
+    text-indent:0;
+}
+h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-top: 0;
+}
+
+pre code {
+    word-wrap: normal;
+}
+
+.page {
+    background-color: #FFFFFF;
+    padding-top: 2rem;
+    margin-top: 1rem;
+}
+
+#content {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin: 0 15px;
+}
+
+.homepage-content {
+    text-align: justify;
+}
+
+#lowernav {
+	clear: both;
+	text-align: center;
+	margin-top: 20px;
+}
+
+table {
+	text-align: left;
+	word-spacing: normal;
+	text-indent: 0;
+    margin-bottom: 20px;
+    border-collapse: separate;
+    border-spacing: 1px;
+    width: 100%;
+}
+
+table th {
+    padding:20px 10px;
+    font-size: 1.17em;
+    font-weight: bold;
+    background-color: #446CFF;
+}
+
+table td {
+    padding:10px;
+    background-color: #CCCCCC;
+}
+
+table td.section {
+    background-color: #000000;
+    color:#FFFFFF;
+}
+
+.jumbotron h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.jumbotron img {
+    width: 100%;
+}
+
+.navbar .navbar-brand {
+    padding: 0 5px 0 0;
+}
+
+.navbar .navbar-brand img {
+    height: 45px;
+}
+
+.page-text {
+	min-height: 220px;
+}
+
+.post-list .author {
+    height: 5rem;
+}
+
+.single .author {
+    height: 10rem;
+}
+
+.svg-shortcode svg {
+    height: 2rem;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 950px) {
+    #lowernav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .jumbotron {
+        padding: 20px;
+    }
+
+    .jumbotron h1 {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .jumbotron {
+        padding: 8px;
+    }
+
+    .jumbotron h1 {
+        font-size: 30px;
+    }
+
+    table, .table-info {
+        display: none;
+    }
+}

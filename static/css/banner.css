@@ -1,0 +1,106 @@
+#main {
+    position: relative;
+	overflow:hidden;
+	background-color:#2769FF;
+    padding: 0;
+    height: 270px;
+}
+
+#background {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+#background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+ul#main-menu a.selected {
+    color: #FFFFFF;
+}
+
+#banner-title {
+	position:absolute;
+	top:15px;
+	left:30px;
+    margin: 20px;
+    text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff,
+                -1px 1px 0 #fff, 0.2em 0.1em 0.1em #000;
+}
+
+#banner-title h1 {
+    margin: 0;
+	font-size:60px;
+    width: 50%;
+}
+
+#banner-title h3 {
+    margin: 0;
+    font-size:40px;
+}
+
+@media only screen and (min-width: 768px) {
+    #main {
+        height: 300px;
+    }
+
+    #banner-title h1 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    #main {
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #main {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #main {
+        height: 225px;
+    }
+
+    #banner-title h1 {
+        font-size:45px;
+    }
+
+    #banner-title h3 {
+        font-size:30px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #main {
+        height: 200px;
+    }
+
+    #banner-title {
+        left: 15px;
+    }
+
+    #banner-title h1 {
+        font-size:35px;
+    }
+
+    #banner-title h3 {
+        font-size:20px;
+        line-height: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 335px) {
+    #main {
+        height: 150px;
+    }
+}

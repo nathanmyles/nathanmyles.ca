@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="page-single">
+    {{if not .Params.hideTitle }}<h1>{{ .Title }}</h1>{{ end }}
+    {{ if .Params.subtitle }}
+    <h3 class="text-muted">{{ .Params.subtitle }}</h3>
+    {{ end }}
+    {{ .Content }}
+</div>
+{{ end }}

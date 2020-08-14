@@ -1,0 +1,11 @@
+                <div id="lowernav" class="jslink">
+                    {{ $len := (len .Site.Menus.foot) }}
+                    {{- range $index, $element := (.Site.Menus.foot) }}
+                    <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>{{ if not (eq (add $index 1) $len) }} | {{ end }}
+                    {{- end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

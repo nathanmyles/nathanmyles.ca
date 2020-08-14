@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="single">
+    <div class="d-sm-flex align-items-center">
+        <div>
+            <h1>{{ .Title }}</h1>
+            {{ if .Params.subtitle }}
+            <h3 class="text-muted">{{ .Params.subtitle }}</h3>
+            {{ end }}
+        </div>
+        <div class="text-center d-flex d-sm-block m-4">
+            {{ partial "author" . }}
+            <span>
+                Post Date:<br/>
+                {{- $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" -}}
+                <time datetime="{{ dateFormat "2006-01-02T15:04:05Z" .Date.UTC | safeHTML }}">
+                    {{ dateFormat $dateFormat .Date.Local }}
+                </time>
+            </span>
+        </div>
+    </div>
+    {{ if .Params.feature }}<img src="{{ .Params.feature }}"/>{{ end }}
+    <div class="pt-4">{{ .Content }}</div>
+</div>
+{{ end }}
