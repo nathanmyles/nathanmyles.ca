@@ -30,7 +30,7 @@ Full-time at Ping Identity (October 2015 – January 2019)
 - Building and evolving design documentation (APIs, datastore schemas, system designs)
 - Designing, implementing, and maintaining microservices in a disturbed system architecture 
 - Implementing and maintaining a CI/CD pipeline using GitLab
-- Teaching and mentoring team members in varies coding domains
+- Teaching and mentoring team members in various coding domains
 - Front-end implementation expert using React and Redux
 - API design and implementation using Spring Boot
 - Cassandra database design and implementation

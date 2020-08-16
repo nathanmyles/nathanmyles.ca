@@ -102,6 +102,19 @@ table td.section {
     height: 5rem;
 }
 
+.single {
+    text-align: justify;
+}
+
+.single h1,
+.single h2,
+.single h3,
+.single h4,
+.single h5,
+.single h6 {
+    text-align: left;
+}
+
 .single .author {
     height: 10rem;
 }

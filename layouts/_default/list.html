@@ -6,15 +6,22 @@
         <a href="{{ .RelPermalink }}">
             <div class="d-flex justify-content-between align-items-center">
                 <div>
-                    {{if .Params.feature }}<img class="w-25 d-none d-md-inline-block" src="{{ .Params.feature }}"/>{{ end }}
+                    {{if .Params.feature }}<img class="w-25 d-none d-md-inline-block align-top" src="{{ .Params.feature }}"/>{{ end }}
                     <div class="d-inline-block p-1">
-                        {{ .Title }}
+                        <div>{{ .Title }}</div>
                         {{ if .Params.subtitle }}
                         <div class="d-none d-md-block"><small class="text-muted">{{ .Params.subtitle }}</small></div>
                         {{ end }}
+                        <div class="text-muted">
+                            Post Date:
+                            {{- $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" -}}
+                            <time datetime="{{ dateFormat "2006-01-02T15:04:05Z" .Date.UTC | safeHTML }}">
+                                {{ dateFormat $dateFormat .Date.Local }}
+                            </time>
+                        </div>
                     </div>
                 </div>
-                <div class="w-25">{{ partial "author" . }}</div>
+                <div class="float-right">{{ partial "author" . }}</div>
             </div>
         </a>
     </li>
