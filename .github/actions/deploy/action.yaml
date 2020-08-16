@@ -1,0 +1,12 @@
+name: 'Deploy'
+description: 'Deploy blog'
+inputs:
+  user:
+    description: 'deploy user'
+    required: true
+    default: 'u52708221-nmyles-dev'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.user }}
