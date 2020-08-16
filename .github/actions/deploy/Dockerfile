@@ -1,17 +1,17 @@
 FROM ubuntu:latest
 
-LABEL "name"="Hugo Builder"
+LABEL "name"="Site Deployer"
 LABEL "maintainer"="Nathan Myles <nmyles@nathanmyles.com>"
 LABEL "version"="0.1.0"
 
-LABEL "com.github.actions.name"="Hugo Builder"
-LABEL "com.github.actions.description"="Build a hugo blog"
+LABEL "com.github.actions.name"="Site Deployer"
+LABEL "com.github.actions.description"="Build a hugo blog, and deploy it"
 LABEL "com.github.actions.icon"="package"
 LABEL "com.github.actions.color"="#E0EBF5"
 
 RUN \
   apt-get update && \
-  apt-get install -y ca-certificates openssl git wget sshpass && \
+  apt-get install -y ca-certificates openssl wget sshpass && \
   update-ca-certificates && \
   rm -rf /var/lib/apt
 
