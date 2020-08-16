@@ -1,5 +1,5 @@
-name: 'Deploy'
-description: 'Deploy blog'
+name: 'Site Deployer'
+description: 'Build a hugo blog, and deploy it'
 inputs:
   user:
     description: 'deploy user'
