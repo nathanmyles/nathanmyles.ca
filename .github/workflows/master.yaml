@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so tbe job can access it
+      - uses: actions/checkout@v2
+
+      - name: Deploy
+        uses: ./.github/actions/deploy
+        with:
+          user: 'u52708221-nmyles'
+        env:
+          SSHPASS: ${{ secrets.SSHPASS_NMYLES }}
