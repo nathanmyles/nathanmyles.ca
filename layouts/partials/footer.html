@@ -4,6 +4,11 @@
                     <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>{{ if not (eq (add $index 1) $len) }} | {{ end }}
                     {{- end }}
                 </div>
+                <div class="text-center pt-4">
+                    <a class="github-link" href="https://github.com/nathanmyles/nathanmyles.ca" target="_blank">
+                        {{- partial "svg/github.svg" -}} The code for this website is available on GitHub
+                    </a>
+                </div>
             </div>
         </div>
     </div>
