@@ -50,6 +50,10 @@ pre code {
 	margin-top: 20px;
 }
 
+.github-link svg {
+    width: 25px;
+}
+
 table {
 	text-align: left;
 	word-spacing: normal;
