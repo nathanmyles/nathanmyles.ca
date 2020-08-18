@@ -5,6 +5,7 @@ author = "default"
 title = "Rebuilding my website using a static site generator"
 subtitle = "How I used Hugo to rebuild my website"
 feature = "/img/gohugoio-card.png"
+tags = ["Hugo"]
 +++
 
 I've been neglecting my personal site for years... Looking at the last modified dates on my web hosting, I haven't 
@@ -42,10 +43,12 @@ So the markdown file I ended up going with looks like:
 ```
 +++
 date = 2020-08-13T02:00:00Z
+lastmod = 2020-08-13T02:00:00Z
 author = "default"
 title = "Rebuilding my website using a static site generator"
 subtitle = "How I used Hugo to rebuild my website"
 feature = "/img/gohugoio-card.png"
+tags = ["Hugo"]
 +++
 
 I've been neglecting my personal site for years...
