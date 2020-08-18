@@ -1,0 +1,12 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div>
+    {{ range .Pages }}
+    <a href="{{ .RelPermalink }}">
+        <button type="button" class="btn btn-primary mb-2">
+            {{ .Title }} <span class="badge badge-light">{{ len .Pages }}</span>
+        </button>
+    </a>
+    {{ end }}
+</div>
+{{ end }}

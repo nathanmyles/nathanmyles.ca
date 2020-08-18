@@ -1,0 +1,6 @@
+<div>
+    <a href="/tags">Tags:</a>
+    {{ range .Params.tags }}
+    <a class="badge badge-secondary text-white" href="/tags/{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+</div>

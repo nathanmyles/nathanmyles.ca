@@ -1,5 +1,5 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<h1>{{ .Data.Singular | humanize }}: {{ .Title }}</h1>
 <ul class="list-group post-list">
     {{ range .Pages }}
     {{ partial "post-list-item" . }}

@@ -4,6 +4,7 @@ lastmod = 2020-08-16T01:00:00Z
 author = "default"
 title = "Pipelining deployment of my site with Github Actions"
 feature = "/img/github.png"
+tags = ["GitHub", "GitHub Actions"]
 +++
 
 Automate all the things! I've set up a pipeline to deploy this site using GitHub Actions. Deploying the site consists of

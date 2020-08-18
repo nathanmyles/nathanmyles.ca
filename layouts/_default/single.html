@@ -19,6 +19,11 @@
         </div>
     </div>
     {{ if .Params.feature }}<img src="{{ .Params.feature }}"/>{{ end }}
+    {{ if .Params.tags }}
+    <div class="pt-4">
+        {{ partial "tags" . }}
+    </div>
+    {{ end }}
     <div class="pt-4">{{ .Content }}</div>
 </div>
 {{ end }}
