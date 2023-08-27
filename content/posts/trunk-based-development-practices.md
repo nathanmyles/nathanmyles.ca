@@ -2,15 +2,15 @@
 date = 2020-11-12T01:00:00Z
 lastmod = 2020-10-12T01:00:00Z
 author = "default"
-title = "Trunk Based Development Practices"
+title = "Local Trunk Based Development Practices"
 subtitle = "The ways I use git to manage code"
-feature = "/img/truck-based-development.png"
+feature = "/img/trunk-based-development.png"
 +++
 
-For the last few years, I've been ditching gitflow and local feature branches almost entirely in favour of trunk-based 
+For the last few years, I've been ditching gitflow and local feature branches almost entirely in favour of local trunk-based 
 development. Trunk based development is the idea that developers should work off a single branch. In Git, this is usually 
-something like `master` or `dev`, depending on your organizational situation. Developers should work off this branch and 
-make pull requests into it. For more information on truck based development, [this](https://trunkbaseddevelopment.com/) is 
+something like `main` or `dev`, depending on your organizational situation. Developers should work off this branch and 
+make pull requests into it. For more information on trunk based development, [this](https://trunkbaseddevelopment.com/) is 
 a great resource. I've built up a set of practices that have helped make this work well for me.
 
 ## Workflows
@@ -93,6 +93,6 @@ worth it.
 
 ## Conclusion
 
-Truck based development has made a huge improvement in my development workflow. Making small changes directly to the main 
+Local trunk based development has made a huge improvement in my development workflow. Making small changes directly to the main 
 branch and getting them merged as quickly as possible has made me more productive and effective. I hope these practices can
 help in your development and let me know if you have any questions! Happy coding!

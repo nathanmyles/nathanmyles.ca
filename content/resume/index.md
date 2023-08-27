@@ -1,40 +1,73 @@
 ---
 title: "Resume"
-date: 2020-08-10T23:37:33-03:00
+date: 2023-08-26T17:37:33-03:00
 hideTitle: true
 ---
 # Nathan Myles
 #### nmyles@nathanmyles.com
 ---
-## Objective
-To work for the coolest software companies in the world
+
+## Skills
+
+##### Architecture
+- System design: Cloud application design, service to service interactions, third party integrations
+- Service design: API, data storage schema, project layout, class structure
+- Documentation: Technical specifications, system diagrams, flow diagrams
+
+##### Full-Stack Development
+- Programming: Web, Android, iOS
+- Languages: Python, Java, Javascript, Swift
+- Frameworks: Flask, Springboot, Vue, React
+- Testing: Automated unit, integration, and E2E testing
+- Datastores/Tools: MySQL, Cassandra, ElasticSearch, Kafka, Vault, Lambda, Redis
+
+##### DevOps
+- Running containerized applications: Docker, Kubernetes, managed cloud services, AWS, GCP
+- CI/CD: Building deployment pipelines, automated test runners
+- Infrastructure as code: terraform, helm, Kubernetes manifests, GitOps
+- Observability: Building dashboards and monitors to ensure service performance and stability
+
+##### Technical Leadership
+- Leading teams: Planning work, providing guidance, finding solutions for issues
+- Mentorship: Review code, teach programming patterns/strategies, paired programming
+- Teaching: Giving talks on new technologies / patterns, programming workshops
 
 ## Work Experience
 
+##### Staff Software Engineer
+
+Full-time at Dash Hudson (June 2022 – Present)
+- Provided technical leadership across the company’s products
+- Improved password hashing with the ability to upgrade the algorithm transparently to users
+- Conducted a PoC on a new product, working with the product owner to determine feasibility of features and designs, then worked with teams to implement and launch the product
+- Took on platform wide initiative to improve observability of services in production
+
 ##### Senior Software Engineer
 
-Full-time at Dash Hudson (June 2020 - Present)
-- Building, testing, and maintaining Python services that provide core product functionality
-- Building, testing, and maintaining UIs with VueJS
+Full-time at Dash Hudson (June 2020 – June 2022)
+- Designed and implemented many core features of the company’s products
+- Successfully introduced Kafka and supporting core libraries that allow other developers and teams to easily adopt the new technology
+- Mentored developers in new programming strategies and software design skills
+- Provided reviews and feedback on feature designs proposed by other developers	
+- Developed CI/CD tooling to help developers deploy features quickly and confidently
 
 Full-time at NBX (January 2019 – June 2020)
-- Building, testing, maintaining microservices that provide core product functionality
-- Implementing and maintaining a CI/CD pipeline using GCP's Cloud Build
-- Managing container infrastructure on Kubernetes (GKE)
-- Implementing and maintaining code for making transactions in different cryptocurrencies 
-- Implementing and maintaining code for monitoring blockchains for relevant transactions 
-- Participating in an on-call rotation to provide 24/7 support for the product
+- Built, tested, and maintained services that provide core product functionality
+- Implemented and maintained CI/CD pipelines using GCP's Cloud Build
+- Managed container infrastructure on Kubernetes (GKE)
+- Implemented code for making transactions in different cryptocurrencies
+- Implemented code for monitoring blockchains for relevant transactions
+- Participated in an on-call rotation to provide 24/7 support for the product
 
 Full-time at Ping Identity (October 2015 – January 2019)
-- Leading a team of developers to implement core features of the company's products
-- Building and evolving design documentation (APIs, datastore schemas, system designs)
-- Designing, implementing, and maintaining microservices in a disturbed system architecture 
-- Implementing and maintaining a CI/CD pipeline using GitLab
-- Teaching and mentoring team members in various coding domains
+- Led a team of developers to implement core features of the company's products
+- Built and evolved design documentation (APIs, datastore schemas, system designs)
+- Designed, implemented, and maintained services in a disturbed system architecture
+- Implemented and maintained a CI/CD pipeline using GitLab
+- Taught and mentored team members in various coding domains
 - Front-end implementation expert using React and Redux
 - API design and implementation using Spring Boot
-- Cassandra database design and implementation
-- MySQL database design and implementation
+- MySQL and Cassandra database design and implementation
 
 Full-time at aioTV Inc. (March 2013 – September 2015)
 - Led a team of developers to implement core features of the company's products 
@@ -46,7 +79,7 @@ Full-time at aioTV Inc. (March 2013 – September 2015)
 
 Full-time at aioTV Inc. (November 2011 – March 2013)
 - Worked individually and in teams to complete tasks in a Scrum environment
-- Worked with many browser-based video players, including http live streaming 
+- Worked with many browser-based video players, including http live-streaming 
 - Linux server administration and bash scripting
 - Continued to perform the tasks from my developer position (see below)
 
@@ -67,7 +100,7 @@ Full-time at Internet Solutions Ltd. (August 2011 - November 2011)
 Part-time at aioTV Inc. (June 2010 - November 2011)
 - Client side programming with JavaScript/jQuery
 - Server side programming with PHP
-- Advanced object oriented design
+- Advanced object-oriented design
 - Database management and design with PhpMyAdmin and MySQL
 - Developed an android application
 - Version control with subversion
@@ -91,16 +124,16 @@ Full-time at Public Works and Government Services Canada (April 2011 - August 20
 
 ##### Independent Web Developer and Software Engineer
 
-- Personal projects for friends, businesses, and myself (May 2008 - Present)
-    - Web development
-    - Client side programming with JavaScript / jQuery / Backbone
-    - Server side programming with PHP and Node.js
-    - Databases including MySQL and MongoDB
-    - Android development
-    - Facebook SDK using REST, JavaScript and Android APIs
-    - Twitter REST API
-    - Google Maps API, both JavaScript and Android
-    - iOS Development
+Personal projects for friends, businesses, and myself (May 2008 - Present)
+- Web development
+- Client side programming with JavaScript, jQuery, Backbone, React
+- Server side programming with Java, Golang, Python, PHP, Node.js
+- Databases including MySQL, Casandra, ElasticSearch, MongoDB
+- Android development
+- Facebook SDK using REST, JavaScript and Android APIs
+- Twitter REST API
+- Google Maps API, both JavaScript and Android
+- iOS Development
 
 ## Education
 
@@ -123,6 +156,6 @@ Full-time at Public Works and Government Services Canada (April 2011 - August 20
 - Operating Systems: Mac OSX, Linux(openSUSE, Ubuntu, Solaris, Fedora), Windows
 - Databases: MySQL, Oracle, SQL Server
 
-<br/><br/>
+<br/>
 
-#### References: available on request
+#### References: Available on request
