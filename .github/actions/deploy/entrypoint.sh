@@ -16,7 +16,7 @@ echo "Building is done."
 
 echo "Copying over generated files..."
 cd public
-sshpass -e sftp "$1@home279202417.1and1-data.host" << !
+sshpass -e sftp "$1@$2" << !
   put -r .
   exit
 !
