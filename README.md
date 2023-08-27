@@ -4,13 +4,15 @@ This is code for my personal website located at http://nathanmyles.ca
 
 This site is built using [Hugo](https://gohugo.io)
 
-## Prerequisite
+## Prerequisites
 
-- hugo - `brew install hugo`
+- [Docker](https://www.docker.com/)
 
 ## Running locally
 
-`hugo server -D`
+`docker-compose up -d`
+
+Site will be available at http://localhost:8080/
 
 ## Building the site
 
