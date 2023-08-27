@@ -4,9 +4,12 @@ inputs:
   user:
     description: 'deploy user'
     required: true
-    default: 'u52708221-nmyles-dev'
+  server_url:
+    description: 'deploy location'
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
     - ${{ inputs.user }}
+    - ${{ inputs.server_url }}
