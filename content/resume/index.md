@@ -156,6 +156,6 @@ Personal projects for friends, businesses, and myself (May 2008 - Present)
 - Operating Systems: Mac OSX, Linux(openSUSE, Ubuntu, Solaris, Fedora), Windows
 - Databases: MySQL, Oracle, SQL Server
 
-<br/><br/>
+<br/>
 
-#### References: available on request
+#### References: Available on request
