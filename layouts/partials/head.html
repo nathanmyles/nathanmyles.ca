@@ -4,17 +4,27 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="/img/nathanicon.png" />
+    {{ $icon := resources.Get "img/nathanicon.png" }}
+    <link rel="shortcut icon" href="{{ $icon.Permalink }}" />
 
-    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="/css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
-    <link href="/css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
-    <link href="/css/github.css" rel="stylesheet" type="text/css"/>
-    <link href="/css/global.css" rel="stylesheet" type="text/css" />
-    <link href="/css/banner.css" rel="stylesheet" type="text/css"/>
+    {{ $bootstrap := resources.Get "css/bootstrap.min.css" }}
+    <link rel="stylesheet" href="{{ $bootstrap.Permalink }}" type="text/css">
+    {{ $bootstrapGrid := resources.Get "css/bootstrap-grid.min.css" }}
+    <link rel="stylesheet" href="{{ $bootstrapGrid.Permalink }}" type="text/css">
+    {{ $bootstrapReboot := resources.Get "css/bootstrap-reboot.min.css" }}
+    <link rel="stylesheet" href="{{ $bootstrapReboot.Permalink }}" type="text/css">
+    {{ $github := resources.Get "css/github.css" }}
+    <link rel="stylesheet" href="{{ $github.Permalink }}" type="text/css">
+    {{ $global := resources.Get "css/global.css" }}
+    <link rel="stylesheet" href="{{ $global.Permalink }}" type="text/css">
+    {{ $banner := resources.Get "css/banner.css" }}
+    <link rel="stylesheet" href="{{ $banner.Permalink }}" type="text/css">
 
-    <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/highlight.pack.js"></script>
+    {{ $jquery := resources.Get "js/jquery-1.10.2.min.js" }}
+    <script type="text/javascript" src="{{ $jquery.Permalink }}"></script>
+    {{ $bootstrapJs := resources.Get "js/bootstrap.min.js" }}
+    <script type="text/javascript" src="{{ $bootstrapJs.Permalink }}"></script>
+    {{ $highlight := resources.Get "js/highlight.pack.js" }}
+    <script type="text/javascript" src="{{ $highlight.Permalink }}"></script>
     <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
 </head>

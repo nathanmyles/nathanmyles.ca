@@ -38,6 +38,8 @@ hideTitle: true
 
 Full-time at Dash Hudson (June 2022 – Present)
 - Provided technical leadership across the company’s products
+- Implemented modern authentication practices across all services
+- Implemented the ability for application administrators to impersonate users securely
 - Improved password hashing with the ability to upgrade the algorithm transparently to users
 - Conducted a PoC on a new product, working with the product owner to determine feasibility of features and designs, then worked with teams to implement and launch the product
 - Took on platform wide initiative to improve observability of services in production

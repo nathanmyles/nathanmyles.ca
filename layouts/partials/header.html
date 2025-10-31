@@ -1,6 +1,10 @@
 <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-        <a class="navbar-brand" href="/"><img src="/img/nathanicon.png"></a>
+        <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+            {{ with resources.Get "img/nathanicon.png" }}
+            <img src="{{ .RelPermalink }}">
+            {{ end }}
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,7 +26,9 @@
     <div class="jumbotron page">
         <div id="main" class="jumbotron">
             <div id="background">
-                <img src="/img/banner.jpg" />
+                {{ with resources.Get "img/banner.jpg" }}
+                <img src="{{ .RelPermalink }}">
+                {{ end }}
             </div>
             <div id="banner-title">
                 <h1>Nathan Myles</h1>

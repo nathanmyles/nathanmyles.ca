@@ -18,7 +18,9 @@
             </span>
         </div>
     </div>
-    {{ if .Params.feature }}<img src="{{ .Params.feature }}"/>{{ end }}
+    {{ with resources.Get .Params.feature }}
+    <img src="{{ .RelPermalink }}"/>
+    {{ end }}
     {{ if .Params.tags }}
     <div class="pt-4">
         {{ partial "tags" . }}
